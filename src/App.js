@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Route, Link, Routes} from 'react-router-dom'; // Import components from 'react-router-dom'
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+          </ul>
+        </nav>
+
+        <Routes> {/* Use Routes instead of Switch */}
+          <Route path="/" element={<h1>Home </h1>} />
+          <Route path="/about" element={<h1>About </h1>} />
+          <Route path="*" element={<h1>ggfjghjh </h1>} /> {/* This will handle 404 routes */}
+        </Routes>
+      </div>
+   
   );
-}
+};
 
 export default App;
