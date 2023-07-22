@@ -1,0 +1,35 @@
+/* Apply styles to the container div */
+.chart-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Apply styles to the chart */
+  .recharts-wrapper {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Apply styles to the chart tooltip */
+  .recharts-tooltip {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Apply styles to the chart tooltip label */
+  .recharts-tooltip-label {
+    font-weight: bold;
+  }
+  
+  /* Apply styles to the chart tooltip value */
+  .recharts-tooltip-item-value {
+    color: #888;
+  }
+  
+  /* Apply styles to the chart legend */
+  .recharts-legend-wrapper {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Monthly Sales Performance",
+      "data": [
+        { "label": "Feb", "value": 15000 },
+        { "label": "Mar", "value": 8000 },
+        { "label": "Apr", "value": 4500 },
+        { "label": "May", "value": 11000 },
+        { "label": "Jun", "value": 2000 },
+        { "label": "Jul", "value": 9500 }
+      ]
+    },
+    {
+      "title": "Sales Performance",
+      "data": [
+        { "label": "Q1", "value": 15000 },
+        { "label": "Q2", "value": 8000 },
+        { "label": "Q3", "value": 4500 },
+        { "label": "Q4", "value": 11000 }
+      ]
+    }
+  ]
